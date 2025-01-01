@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+.tag {
+  font-family: "Sora", serif;
+  padding-left: 10px;
+  font-size: 0.625rem;
+  color:#7C19EE;
+  font-weight: bold;
+}
+
+.title {
+  font-family: "Sora", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-style: normal;
+  color:#20293A;
+  font-size: 1.125rem;
+}
+
+.body{
+  font-family: "Sora", serif;
+  font-size: 0.875rem;
+  color:#5A5A60;
+  font-weight: 100;
+  width: 250px;
+  padding-bottom: 10px;
+  }
+
+.name{
+    font-family: "Sora";
+    font-size: 0.75rem;
+    color:#5A5A60;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+
+.container{
+    /* Box-shadow */
+    background-color: #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 30%;
+    margin-top: 300px;
+    width: 30%;
+    overflow: hidden;
+}
+
+img{
+    margin: auto;
+    max-width: 60%;
+}
+
+.text{
+    height: 20vh;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word; /* Forces long words to break */
+}
+
