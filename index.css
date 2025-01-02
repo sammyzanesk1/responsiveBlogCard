@@ -38,7 +38,7 @@
 .container{
     /* Box-shadow */
     background-color: #f5f5f5;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,5 +60,93 @@ img{
     max-width: 100%;
     overflow-wrap: break-word;
     word-break: break-word; /* Forces long words to break */
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .container {
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    width: 60%;
+    height: auto;
+  }
+
+  img{
+    margin: auto;
+    max-width: 120%;
+    
+  }
+  
+}
+
+@media (max-width: 640px) {
+  .container {
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    min-width: 75%;
+    height: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  .container{
+    min-width:75%;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    /* background-color: aqua; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    display: flex;
+    width: 70%;
+    height: 40vh;
+  }
+
+
+  .tag{
+    font-size: .6rem;
+  }
+  
+  .title{
+    font-size: 1.2rem;
+  }
+  
+  .name, .body{
+    font-size: 0.68rem;
+  }
+
+  img{
+    margin: auto;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 290px) {
+  .container {
+    /* background-color: goldenrod; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    display: flex;
+    width: 70%;
+    height: auto;
+  
+  }
+  
+  img{
+    margin: auto;
+    max-width: 100%;
+  }
+  
+  .tag{
+    font-size: .5rem
+  }
+  .title{
+    font-size: 0.98rem;
+  }
+
+  .name, .body{
+    font-size: 0.645rem;
+  }
 }
 
